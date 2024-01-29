@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  display: flex;
+  padding: 50px;
+  width: 200px;
+  height: 100px;
+  padding: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.deposit-box {
+  background-color: rgb(165, 0, 129);
+}
+.withdraw-box {
+  background-color: tomato;
+}
+.amount-box {
+  background-color: rgb(255, 8, 0);
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
